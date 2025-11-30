@@ -1,0 +1,9 @@
+=== PART 18/29 ===
+
+/* Drag-and-drop behavior notes */
+
+- Windows are draggable by the `.window-header`.
+- Movement is tracked via `mousedown`, `mousemove`, and `mouseup` events.
+- The offset from mouse click to window top-left is stored in `offsetX` and `offsetY`.
+- When `isDown` is true, the window follows the cursor.
+- Closing a window removes its DOM element.
