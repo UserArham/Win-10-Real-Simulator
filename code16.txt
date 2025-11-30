@@ -1,0 +1,9 @@
+=== PART 16/29 ===
+
+/* Additional notes for setup */
+
+1. To run the simulator, simply open `index.html` in any modern browser.
+2. All app windows are draggable and can be closed via the ✕ button.
+3. The start menu toggles when clicking the ⊞ Start button.
+4. Desktop icons can be double-clicked to launch apps.
+5. Apps are contained in the `/apps/` folder and referenced via `iframe`.
