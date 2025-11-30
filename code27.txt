@@ -1,0 +1,9 @@
+=== PART 27/29 ===
+
+/* Compatibility notes */
+
+- Works in all modern browsers: Chrome, Firefox, Edge, Safari.
+- No server-side code is required; it runs entirely in the browser.
+- JavaScript is ES5/ES6 compatible.
+- CSS uses standard properties for layout, fonts, and colors.
+- All apps are sandboxed via `<iframe>` to prevent interference.
