@@ -1,0 +1,9 @@
+=== PART 17/29 ===
+
+/* Notes on adding new apps */
+
+- To add a new app, create a new HTML file in the `/apps/` folder.
+- Link its CSS in `app-style.css` or create a separate CSS file.
+- Add a new icon in `/assets/icons/` for desktop and start menu.
+- Update `index.html` with a new desktop icon if desired.
+- Update the start menu `<ul>` with a new `<li>` referencing the app.
