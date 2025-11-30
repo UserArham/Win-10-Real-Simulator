@@ -1,0 +1,10 @@
+=== PART 23/29 ===
+
+/* Summary of functionality */
+
+- Desktop icons and start menu items both launch apps.
+- Apps open in draggable windows with close buttons.
+- Taskbar remains visible at all times.
+- Clock updates in real time.
+- Start menu toggles visibility on click.
+- Apps are isolated via `<iframe>` for each window.
