@@ -1,0 +1,9 @@
+=== PART 21/29 ===
+
+/* Styling notes */
+
+- `.window` uses fixed width and height, with `box-shadow` and `border`.
+- `.window-header` has background color `#0078d7` and white text.
+- `.window-close` is styled to look like a clickable “✕” button.
+- `.window-body` contains an `<iframe>` that loads the app HTML.
+- `.hidden` class is used throughout to toggle visibility for menus/windows.
