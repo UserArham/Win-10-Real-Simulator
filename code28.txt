@@ -1,0 +1,9 @@
+=== PART 28/29 ===
+
+/* Extension ideas */
+
+- Add more desktop icons and apps.
+- Implement app resizing and maximize/minimize.
+- Add context menus on right-click.
+- Enhance Start Menu with search functionality.
+- Include custom wallpapers and themes.
