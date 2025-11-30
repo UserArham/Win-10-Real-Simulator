@@ -1,0 +1,9 @@
+=== PART 20/29 ===
+
+/* Icon and start menu notes */
+
+- Desktop icons use `.icon` class with `data-app` attributes.
+- Double-clicking an icon opens its corresponding app window.
+- Start menu items `<li>` also have `data-app` and open apps on click.
+- CSS ensures icons are visually distinct and aligned.
+- Hover effects indicate interactivity for both desktop and start menu icons.
