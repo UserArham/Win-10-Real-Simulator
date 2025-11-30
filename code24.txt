@@ -1,0 +1,9 @@
+=== PART 24/29 ===
+
+/* Customization notes */
+
+- Background wallpaper can be replaced by editing `#desktop` CSS.
+- App icons can be replaced in `/assets/icons/`.
+- New apps require corresponding HTML, optional CSS, and an icon.
+- Window sizes can be adjusted via `.window` CSS.
+- Colors and fonts can be customized via `style.css` and `app-style.css`.
