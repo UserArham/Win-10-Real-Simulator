@@ -1,0 +1,22 @@
+=== PART 15/29 ===
+
+/* Summary of folder structure */
+
+windows-10-simulator/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+├── apps/
+│   ├── notepad.html
+│   ├── file-explorer.html
+│   └── app-style.css
+│
+└── assets/
+    ├── icons/
+    │   ├── notepad.png
+    │   ├── folder.png
+    │   └── windows.png
+    └── wallpaper.jpg
