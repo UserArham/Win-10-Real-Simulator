@@ -1,0 +1,9 @@
+=== PART 22/29 ===
+
+/* Assets handling notes */
+
+- `/assets/icons/` contains icon images for apps (placeholders in this version).
+- `/assets/wallpaper.jpg` is the desktop background (currently empty).
+- Images are referenced via relative paths in HTML and CSS.
+- Additional icons can be added for new apps; ensure filenames match `data-app`.
+- Wallpaper can be replaced by updating `background` property in `#desktop`.
