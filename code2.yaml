@@ -1,0 +1,33 @@
+=== PART 2/29 ===
+
+[ index.html — CONTINUED ]
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+=== style.css — START ===
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Segoe UI, sans-serif;
+}
+
+/* Desktop */
+#desktop {
+  width: 100vw;
+  height: 100vh;
+  background: url("assets/wallpaper.jpg") no-repeat center/cover;
+  position: relative;
+}
+
+.icon {
+  width: 80px;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+}
+.icon img { width: 48px; }
