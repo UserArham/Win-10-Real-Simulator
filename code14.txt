@@ -1,0 +1,13 @@
+=== PART 14/29 ===
+
+/* assets/icons/notepad.png */
+/* (empty placeholder file) */
+
+/* assets/icons/folder.png */
+/* (empty placeholder file) */
+
+/* assets/icons/windows.png */
+/* (empty placeholder file) */
+
+/* assets/wallpaper.jpg */
+/* (empty placeholder file) */
