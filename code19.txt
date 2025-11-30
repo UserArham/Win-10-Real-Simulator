@@ -1,0 +1,9 @@
+=== PART 19/29 ===
+
+/* Taskbar and clock notes */
+
+- The taskbar is fixed at the bottom with `#taskbar`.
+- The clock updates every second using `setInterval`.
+- Time format uses `toLocaleTimeString` with 2-digit hour and minute.
+- Start button toggles `#start-menu` visibility with `.hidden` class.
+- Start menu items launch apps via the same `openApp()` function as desktop icons.
