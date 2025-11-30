@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Windows 10 Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- DESKTOP -->
+  <div id="desktop">
+    <div class="icon" data-app="file-explorer">
+      <img src="assets/icons/folder.png">
+      <span>File Explorer</span>
+    </div>
+
+    <div class="icon" data-app="notepad">
+      <img src="assets/icons/notepad.png">
+      <span>Notepad</span>
+    </div>
+  </div>
+
+  <!-- TASKBAR -->
+  <div id="taskbar">
+    <div id="start-btn">⊞</div>
+    <div id="taskbar-clock"></div>
+  </div>
+
+  <!-- START MENU -->
+  <div id="start-menu" class="hidden">
+    <div class="start-menu-left">
+      <ul>
+        <li data-app="file-explorer">File Explorer</li>
+        <li data-app="notepad">Notepad</li>
+      </ul>
+    </div>
+    <div class="start-menu-right">
+      <img src="assets/icons/windows.png" width="80">
+      <h3>Windows 10 Simulator</h3>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
