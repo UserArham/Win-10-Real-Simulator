@@ -1,0 +1,8 @@
+=== PART 13/29 ===
+
+## How to add more apps
+Place new HTML files inside `/apps/`  
+Then add an icon or Start Menu entry.
+
+## License
+MIT License — free to use and modify.
