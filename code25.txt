@@ -1,0 +1,9 @@
+=== PART 25/29 ===
+
+/* Tips and troubleshooting */
+
+- If an app doesn’t open, check that its HTML file exists in `/apps/`.
+- Ensure `data-app` attributes match filenames exactly.
+- If icons don’t appear, verify files in `/assets/icons/`.
+- For styling issues, check `style.css` and `app-style.css`.
+- All browsers supporting modern JS and HTML5 will run this simulator.
