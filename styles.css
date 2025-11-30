@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Segoe UI, sans-serif;
+}
+
+/* Desktop */
+#desktop {
+  width: 100vw;
+  height: 100vh;
+  background: url("assets/wallpaper.jpg") no-repeat center/cover;
+  position: relative;
+}
+
+.icon {
+  width: 80px;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+}
+.icon img { width: 48px; }
+
+/* Taskbar */
+#taskbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: rgba(25, 25, 25, 0.93);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+#start-btn {
+  font-size: 24px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+#start-btn:hover {
+  background: rgba(255,255,255,0.15);
+  border-radius: 4px;
+}
+
+#taskbar-clock {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+/* Start menu */
+#start-menu {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  background: #202020;
+  color: white;
+  box-shadow: 0 0 10px black;
+}
+
+.hidden { display: none; }
+
+.start-menu-left ul {
+  list-style: none;
+  padding: 0;
+}
+.start-menu-left li {
+  padding: 10px;
+  cursor: pointer;
+}
+.start-menu-left li:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.start-menu-right {
+  width: 40%;
+  background: #0078d7;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Windows (apps) */
+.window {
+  width: 600px;
+  height: 400px;
+  background: white;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  box-shadow: 0 0 10px black;
+  border: 1px solid #555;
+  display: flex;
+  flex-direction: column;
+}
+
+.window-header {
+  background: #0078d7;
+  color: white;
+  padding: 8px;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+}
+
+.window-close {
+  cursor: pointer;
+  padding: 0 8px;
+}
+
+.window-body {
+  flex: 1;
+  background: white;
+  border-top: 1px solid #ccc;
+}
