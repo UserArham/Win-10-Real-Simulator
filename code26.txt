@@ -1,0 +1,9 @@
+=== PART 26/29 ===
+
+/* Final notes on apps and windows */
+
+- Each app runs inside its own `<iframe>` for isolation.
+- Windows can be dragged, moved, and closed independently.
+- Start menu and desktop icons both launch apps via the same `openApp()` function.
+- CSS ensures consistent styling for windows, headers, and taskbar.
+- This simulator is a minimal example and can be extended freely.
